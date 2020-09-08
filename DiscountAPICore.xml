@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DiscountAPICore</name>
+    </assembly>
+    <members>
+        <member name="T:Dns.CreditBroker.Controllers.AuthController">
+            <summary>
+            Контроллер для работы объектов учетных записей пользователей
+            </summary>
+        </member>
+        <member name="M:Dns.CreditBroker.Controllers.AuthController.Token(System.String,System.String)">
+            <summary>
+            Возвращает токен авторизированного пользователя
+            </summary>
+            <param name="username">Логин</param>
+            <param name="password">Пароль</param>
+            <returns></returns>
+        </member>
+        <member name="T:DiscountAPICore.Controllers.ValuesController">
+            <summary>
+            Вэльюз контроллер
+            </summary>
+        </member>
+        <member name="M:DiscountAPICore.Controllers.ValuesController.Get">
+            <summary>
+            GET api/values
+            </summary>
+            <returns>values</returns>
+        </member>
+        <member name="M:DiscountAPICore.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Get values by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DiscountAPICore.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            New value (not implemented)
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:DiscountAPICore.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            Change value (not implemented)
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:DiscountAPICore.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            Delete value (not implemented)
+            </summary>
+        </member>
+        <member name="T:DiscountAPICore.Model.Identity">
+            <summary>
+            Модель пользователя
+            </summary>
+        </member>
+        <member name="P:DiscountAPICore.Model.Identity.Username">
+            <summary>
+            Логин
+            </summary>
+        </member>
+        <member name="P:DiscountAPICore.Model.Identity.Password">
+            <summary>
+            Пароль
+            </summary>
+        </member>
+    </members>
+</doc>
